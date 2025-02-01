@@ -13,21 +13,21 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: #000000;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar__navigation .logo {
-    background-color: #121212;
+    background-color: #000000;
     display: flex;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 16px 0 0 5px;
 }
 
 .sidebar nav ul {
-    margin-top: 20px;
-    padding: 0 20px 10px 20px;
+    margin-top: 0px;
+    padding: 10px 10px 10px 5px;
 }
 
 .sidebar nav ul li {
@@ -42,11 +42,12 @@ body {
 }
 
 .logo img {
-    width: 80px;
+    width: 90px;
+    padding: 10px 10px 10px 5px;
 }
 
 .library {
-    background-color: #121212;
+    background-color: #000000;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -90,7 +91,7 @@ body {
 
 .section-playlist{
     display: flex;
-    background-color: #242424;
+    background-color: #121212;
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
